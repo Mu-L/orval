@@ -226,73 +226,59 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/match-sorter-utils@npm:^8.1.1":
-  version: 8.7.6
-  resolution: "@tanstack/match-sorter-utils@npm:8.7.6"
+"@tanstack/match-sorter-utils@npm:^8.19.4":
+  version: 8.19.4
+  resolution: "@tanstack/match-sorter-utils@npm:8.19.4"
   dependencies:
-    remove-accents: "npm:0.4.2"
-  checksum: 10c0/4553ef8e4f707987cb625c616a254f683c69285e641cd30fd66e0001f4a9f52eab961a8c3c8cbc49cb2ac0bd63c45f7d67ea27b3a588630eb328312d4a397ec8
+    remove-accents: "npm:0.5.0"
+  checksum: 10c0/935022e3d639f19472131d289f3e1202253ff34301717c337e9bac0eeae6a0bd56450ed8ae2f7eb7ac9dfefa7ceaa7d126d8c5441021968b4a9eabc3ac4f8ba1
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.22.0":
-  version: 4.22.0
-  resolution: "@tanstack/query-core@npm:4.22.0"
-  checksum: 10c0/be3f870719ea9c53dfc3398725c92876448a2a5cd8253010226ad88e91b0586d3c5e9bb9366ca27a035d5855517b6883ec0a5d7d4437458ff5bd3acb5553974f
+"@tanstack/query-core@npm:5.83.0":
+  version: 5.83.0
+  resolution: "@tanstack/query-core@npm:5.83.0"
+  checksum: 10c0/e6dc480bc99eaca552a9ad65423788b60368cf99308681252fc7dbe42a3f2c1c978db0d3471cc3349b9112cfb4d967ace4e192a1d7e987e30c5c1ff74809c77c
   languageName: node
   linkType: hard
 
-"@tanstack/query-core@npm:4.24.9":
-  version: 4.24.9
-  resolution: "@tanstack/query-core@npm:4.24.9"
-  checksum: 10c0/6e4c5b0fd853578f3e15eff9582a60afa1c852dc9c90f45f3432ddb67632436f8f67e0f76698db4a0358ad05f6ae1215a6f32decfa61760c0fb9b7a7b7a6c536
-  languageName: node
-  linkType: hard
-
-"@tanstack/query-core@npm:5.62.16":
-  version: 5.62.16
-  resolution: "@tanstack/query-core@npm:5.62.16"
-  checksum: 10c0/3df0c19916cb363b055a20590c856b4f08006754b8169222a12e94ed5647733c389ac0d58878dfb8d6803f23a2a092d8a29b3259330576bd4170dad86798eb6d
-  languageName: node
-  linkType: hard
-
-"@tanstack/react-query@npm:^5.63.0":
-  version: 5.63.0
-  resolution: "@tanstack/react-query@npm:5.63.0"
+"@tanstack/react-query@npm:^5.83.0":
+  version: 5.83.0
+  resolution: "@tanstack/react-query@npm:5.83.0"
   dependencies:
-    "@tanstack/query-core": "npm:5.62.16"
+    "@tanstack/query-core": "npm:5.83.0"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/8d9622c3b301ff309b4dcfd7a1b14469aa4ac5c1cca20507e67ca57ba1da72fc968d5cbff2b724b5c9f4eb9947e74c0cbf7e68a4c5698c179555da7e91aef6b5
+  checksum: 10c0/883229f9219ca906a54d7caafd44d59b57db5dbe87e954f8a7027f460e9f8b97842dfbd0d676dc3111d577baf312c64f6c1fdd67cd1e4b0f0bf574e29670c606
   languageName: node
   linkType: hard
 
-"@tanstack/svelte-query@npm:^4.24.9":
-  version: 4.24.9
-  resolution: "@tanstack/svelte-query@npm:4.24.9"
+"@tanstack/svelte-query@npm:^5.83.0":
+  version: 5.83.0
+  resolution: "@tanstack/svelte-query@npm:5.83.0"
   dependencies:
-    "@tanstack/query-core": "npm:4.24.9"
+    "@tanstack/query-core": "npm:5.83.0"
   peerDependencies:
-    svelte: ^3.54.0
-  checksum: 10c0/af73049b45b64218422647e7944725bf73cbf922124eac885771492207bbc98dab8095524c03e40726cd5337ec67a674faba752481b97e81bf41eafcab7fcb37
+    svelte: ^3.54.0 || ^4.0.0 || ^5.0.0
+  checksum: 10c0/f6e82fab74723697bcd4cfabe8bd949cfba46341d39cab1b63aa8270ae1b364e6971d9cfd7348040b832b926482766d3fd7328e871800de699b9e3d7641eaabc
   languageName: node
   linkType: hard
 
-"@tanstack/vue-query@npm:^4.22.0":
-  version: 4.22.0
-  resolution: "@tanstack/vue-query@npm:4.22.0"
+"@tanstack/vue-query@npm:^5.83.0":
+  version: 5.83.0
+  resolution: "@tanstack/vue-query@npm:5.83.0"
   dependencies:
-    "@tanstack/match-sorter-utils": "npm:^8.1.1"
-    "@tanstack/query-core": "npm:4.22.0"
-    "@vue/devtools-api": "npm:^6.4.2"
-    vue-demi: "npm:^0.13.11"
+    "@tanstack/match-sorter-utils": "npm:^8.19.4"
+    "@tanstack/query-core": "npm:5.83.0"
+    "@vue/devtools-api": "npm:^6.6.3"
+    vue-demi: "npm:^0.14.10"
   peerDependencies:
     "@vue/composition-api": ^1.1.2
-    vue: ^2.5.0 || ^3.0.0
+    vue: ^2.6.0 || ^3.3.0
   peerDependenciesMeta:
     "@vue/composition-api":
       optional: true
-  checksum: 10c0/977d4835f138ef018eee66489baff70eb11390666b6b04db31ebe78c611b40993f4b286d1b7d430564a21602110bceb8f1840ee8ef0d4ec8c071015f71336fe8
+  checksum: 10c0/7e26e18398844c05049a22372f938d43bda759c94691f1199c0f9d65ae9460f2427307437d78f15b45fa8e42b66eae24c5a7822a2aca7e0879631a95f3ea44aa
   languageName: node
   linkType: hard
 
@@ -384,10 +370,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.4.2":
-  version: 6.4.5
-  resolution: "@vue/devtools-api@npm:6.4.5"
-  checksum: 10c0/0c99b38f00a85559d7359cec6007c11a6c26ad9916cc116f366e1d145bd1cfd51dc5b302e916aa100bec128bff91a47cdb3192453f97bc62a917cdd157c70dae
+"@vue/devtools-api@npm:^6.6.3":
+  version: 6.6.4
+  resolution: "@vue/devtools-api@npm:6.6.4"
+  checksum: 10c0/0a993ae23618166e1bee5a7c14cebd8312752b93c143cbdd48fb2d0f7ade070d0e6baf757cd920d4681fef8f9acf29515162160f38cc7410f9a684d2df21b6de
   languageName: node
   linkType: hard
 
@@ -588,9 +574,9 @@ __metadata:
     "@faker-js/faker": "npm:^9.8.0"
     "@hono/zod-validator": "npm:^0.4.2"
     "@modelcontextprotocol/sdk": "npm:^1.9.0"
-    "@tanstack/react-query": "npm:^5.63.0"
-    "@tanstack/svelte-query": "npm:^4.24.9"
-    "@tanstack/vue-query": "npm:^4.22.0"
+    "@tanstack/react-query": "npm:^5.83.0"
+    "@tanstack/svelte-query": "npm:^5.83.0"
+    "@tanstack/vue-query": "npm:^5.83.0"
     "@types/react": "npm:18.3.2"
     axios: "npm:^1.8.2"
     hono: "npm:^4.6.16"
@@ -2662,10 +2648,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remove-accents@npm:0.4.2":
-  version: 0.4.2
-  resolution: "remove-accents@npm:0.4.2"
-  checksum: 10c0/5cbc00efa52df29ce947a0c572ff975b011f5f197ebe7b4f6e527de26aba534cba12d502e3040b72e46ad01de3d4f2d5ef57a6593c964965e43ddb60438da0f8
+"remove-accents@npm:0.5.0":
+  version: 0.5.0
+  resolution: "remove-accents@npm:0.5.0"
+  checksum: 10c0/a75321aa1b53d9abe82637115a492770bfe42bb38ed258be748bf6795871202bc8b4badff22013494a7029f5a241057ad8d3f72adf67884dbe15a9e37e87adc4
   languageName: node
   linkType: hard
 
@@ -3318,9 +3304,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-demi@npm:^0.13.11":
-  version: 0.13.11
-  resolution: "vue-demi@npm:0.13.11"
+"vue-demi@npm:^0.14.10":
+  version: 0.14.10
+  resolution: "vue-demi@npm:0.14.10"
   peerDependencies:
     "@vue/composition-api": ^1.0.0-rc.1
     vue: ^3.0.0-0 || ^2.6.0
@@ -3330,7 +3316,7 @@ __metadata:
   bin:
     vue-demi-fix: bin/vue-demi-fix.js
     vue-demi-switch: bin/vue-demi-switch.js
-  checksum: 10c0/8f1a38e41e3dd0a4821c87231c664dcc00e6dbf5eecd3de397b7ddb6ae01f173aed5385c55a3c3239be36145742f1a5be407662fc67f9c4515ea691dd0ac93e1
+  checksum: 10c0/a9ed8712fa36d01bc13c39757f95f30cebf42d557b99e94bff86d8660c81f2911b41220f7affc023d1ffcc19e13999e4a83019991e264787cca2c616e83aea48
   languageName: node
   linkType: hard
 
